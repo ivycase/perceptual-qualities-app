@@ -1,8 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "resourceNameTruncated": "voiceaa0857397",
-    "userPoolName": "voiceappuserpool",
+    "identityPoolName": "perceptualqualities3e683ef6_identitypool_3e683ef6",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "percep3e683ef6",
+    "userPoolName": "perceptualqualities3e683ef6_userpool_3e683ef6",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -29,19 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "voiceaa0857397_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "percep3e683ef6_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "a0857397",
-    "resourceName": "voiceappauth",
-    "authSelections": "userPoolOnly",
-    "useDefault": "manual",
+    "sharedId": "3e683ef6",
+    "resourceName": "perceptualqualities3e683ef6",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
-    "userPoolGroups": false,
-    "adminQueries": false,
-    "triggers": {},
-    "hostedUI": false,
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
