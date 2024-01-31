@@ -60,8 +60,7 @@ export default function VoiceDesignScreen({
 
         {/* TODO: replace placeholder text*/}
         <BodyText>
-          [encourage users to play around and set goals by finding a voice that
-          they like. remind them that this can always be changed later.]
+          [play around and find a voice you like. you can change this later.]
         </BodyText>
 
         <ButtonContainer>

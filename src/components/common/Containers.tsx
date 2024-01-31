@@ -15,7 +15,7 @@ export const StartContainer = styled.View`
 `;
 
 export const HeadingContainer = styled.View`
-  padding-vertical: 31px;
+  padding-vertical: 5%;
   align-items: flex-start;
   width: 100%;
 `;
@@ -31,7 +31,7 @@ export const ButtonContainer = styled.View`
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 34px;
+  margin-top: 8%;
 `;
 
 export const Column = styled.View`

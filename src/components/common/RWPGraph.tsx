@@ -73,15 +73,15 @@ export function RWPGraph({
         </CenteredRow>
       </TouchableOpacity>
       <Row>
-        <Column>
-          <BodyText>
-            {maxValue}
-            {units}
-          </BodyText>
-          <ColumnEnd>
-            <BodyText>0</BodyText>
-          </ColumnEnd>
-        </Column>
+          <Column>
+            <BodyText>
+              {maxValue}{'\n'}
+              {units}
+            </BodyText>
+            <ColumnEnd>
+              <BodyText>0</BodyText>
+            </ColumnEnd>
+          </Column>
 
         <Column style={styles.alignFlexStart}>
           {isActive ? (
@@ -150,7 +150,7 @@ export function RWPGraph({
             <YellowText
               style={{
                 ...styles.rotateCW,
-                marginHorizontal: type == 'weight' ? -25 : -19,
+                marginHorizontal: type == 'weight' ? -30 : -19,
               }}
             >
               <BodyEmphasis>{`${yAxisLabel} `}</BodyEmphasis>
@@ -165,7 +165,7 @@ export function RWPGraph({
 
 const styles = StyleSheet.create({
   alignFlexStart: { alignItems: 'flex-start' },
-  chartSize: { width: 250, height: 250, margin: 5 },
+  chartSize: { width: 250, height: 250, margin: 5},
   center: { justifyContent: 'center' },
   rotateCW: {
     transform: [{ rotate: '90deg' }],
