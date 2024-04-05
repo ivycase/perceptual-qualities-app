@@ -59,7 +59,7 @@ export default function VoiceGoalsScreen({
         <ButtonContainer>
           <RWPGraph
             type={showWeight ? 'weight' : 'pitch'}
-            points={DUMMY_DATA_2}
+            points={[...DUMMY_DATA_1, ...DUMMY_DATA_2]}
             openXAxisModal={showXModal}
             openYAxisModal={showYModal}
           />
